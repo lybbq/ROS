@@ -15,6 +15,5 @@ ROS简单根据目标点转换导航点
 
 <figure class="half">
     <img src="https://img-blog.csdnimg.cn/1315767b557349f4b733293e04568f80.png " width="300">
-    <img src="https://img-blog.csdnimg.cn/6d1dbb51ec4249c88d56efea2b2e46be.png" width="310" >
 </figure>
 
