@@ -2,7 +2,7 @@
 
 环境配置
 ------------
-* 默认环境:ubuntu18.04
+* Linux: ubuntu18.04
 * python2.7
 * 安装rbx1、arbotix
 * transfrom_server需要运行在python2.7之中
@@ -45,6 +45,13 @@
 ------------
 * rviz中选择显示'/map_point' Pose（位置、位姿）
 * rviz中选择显示''/base_point'' Postion (相机坐标系下目标点)
+
+效果图
+------------
+<figure class="half">
+    <img src="https://img-blog.csdnimg.cn/77afe7fddef74e9691bacb14588fc91b.png " width="400" high="300">
+    <img src="https://img-blog.csdnimg.cn/5cfcd814e654424f96273eb2508a0d22.png" width="367" high ="300">
+</figure>
 
 Client:
 ------------
