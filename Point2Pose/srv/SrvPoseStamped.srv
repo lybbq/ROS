@@ -1,0 +1,7 @@
+# Get a plan from the current position to the goal Pose 
+
+# The start pose for the plan
+geometry_msgs/PointStamped res
+---
+move_base_msgs/MoveBaseGoal target_pose
+
