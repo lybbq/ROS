@@ -7,10 +7,12 @@
 
 运行顺序
 ------------
-* roslaunch rbx1_bringup fake_turtlebot.launch
-* roslaunch rbx1_nav fake_nav_test.launch 
-* rosrun your_name pub.py (your_name更换成工作空间下软件包名)
-* rosrun your_name rec.py
+```
+roslaunch rbx1_bringup fake_turtlebot.launch
+roslaunch rbx1_nav fake_nav_test.launch 
+rosrun your_name pub.py (your_name更换成工作空间下软件包名)
+rosrun your_name rec.py
+ ```
 
 Publisher:
 ------------

@@ -9,10 +9,13 @@
 * 加入客户/服务操作可兼容Python3(Yolov5、其他功能)与Python2.7。
 * srv文件夹放置工作空间软件包处，修改CmakeList、paceage.xml
 * CmakList.txt配置
-	* find_package 加入 geometry_msgs move_base_msgs message_generation
-	* add_service_files 加入 SrvPoseStamped.srv
-	* generate_messages 加入 std_msgs  geometry_msgs move_base_msgs
+```
+	find_package 加入 geometry_msgs move_base_msgs message_generation
+	add_service_files 加入 SrvPoseStamped.srv
+	generate_messages 加入 std_msgs  geometry_msgs move_base_msgs
+```
 * package.xml配置
+```
 	* <buildtool_depend>catkin</buildtool_depend>
   	* <build_depend>roscpp</build_depend>
   	* <exec_depend>roscpp</exec_depend>
@@ -26,6 +29,7 @@
   	* <exec_depend>move_base_msgs</exec_depend>
   	* <build_depend>message_generation</build_depend>
   	* <exec_depend>message_runtime</exec_depend>
+```
 * 示例配置示例
 	*当前目录下package.xml、CmakList.txt
 
