@@ -1,6 +1,6 @@
 环境配置
 ------------
-* 默认环境:ubuntu18.04
+* Linux: ubuntu18.04
 * python2.7
 * rbx1、arbotix
 * 放置pub.py、rec.py文件进入工作空间的软件包处
